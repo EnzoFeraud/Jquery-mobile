@@ -1,10 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
 
+<head>
+	<title>My Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+	<div data-role="page" id="one">
+		<div data-role="header">
+			<h1>Jquery Mobile</h1>
+		</div>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#one" class="ui-btn-active">One</a></li>
+				<li><a href="#two">Two</a></li>
+			</ul>
+		</div>
+		<div role="main" class="ui-content">
+			<h2>Première page</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim suscipit cum repudiandae consequatur ea
+				quia itaque aperiam perspiciatis iste. Consectetur corrupti soluta sapiente consequatur maiores
+				similique quasi. Nisi, officia corrupti.</p>
+		</div>
+	</div>
+
+	<div data-role="page" id="two">
+		<div data-role="header">
+			<h1>Jquery Mobile</h1>
+		</div>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#one" class="ui-btn-active">One</a></li>
+				<li><a href="#two">Two</a></li>
+			</ul>
+		</div>
+		<div role="main" class="ui-content">
+			<h2>Deuxieme page</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim suscipit cum repudiandae consequatur ea
+				quia itaque aperiam perspiciatis iste. Consectetur corrupti soluta sapiente consequatur maiores
+				similique quasi. Nisi, officia corrupti.</p>
+		</div>
+	</div>
 </body>
+
 </html>
